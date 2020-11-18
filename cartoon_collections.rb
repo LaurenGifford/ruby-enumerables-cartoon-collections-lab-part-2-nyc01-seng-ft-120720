@@ -33,6 +33,6 @@ end
 
 i = 0
 while i < valid_calls.length
-valid_calls[i]
+puts valid_calls[i]
 i += 1
 end
