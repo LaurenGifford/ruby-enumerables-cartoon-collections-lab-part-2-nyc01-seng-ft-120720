@@ -27,12 +27,9 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   planeteer_calls.find {
     |element|
-    element == valid_calls
+    element == call
   }
 end
 
-i = 0
-while i < valid_calls.length
-puts valid_calls[i]
-i += 1
-end
+call = ""
+valid_calls.each {|element| element = call}
