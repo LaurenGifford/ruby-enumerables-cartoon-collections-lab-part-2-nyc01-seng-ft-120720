@@ -25,11 +25,11 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+  call = ""
+  valid_calls.each {|element| element = call}
   planeteer_calls.find {
     |element|
     element == call
   }
 end
 
-call = ""
-valid_calls.each {|element| element = call}
